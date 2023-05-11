@@ -1,0 +1,227 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(36, 17, 6);
+}
+canvas {
+  display: inline-block;
+}
+
+input {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+    width: 300px;
+    height: 40px;
+    font-family: papyrus;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.button-block{
+ position: absolute;
+ width: 100%;
+ top: 60%;
+ display: flex;
+ justify-content: center;
+}
+
+.start-button {
+    
+    width: 200px;
+    height:50px;
+
+    border: 10px;
+    border-radius: 10px;
+    font-family: papyrus;
+    font-size: 20px;
+    
+}
+
+
+
+.heading{
+ 
+  color:aliceblue;
+  text-align: center;
+  font-size: 30px;
+  font-family:papyrus;	
+  position:absolute;
+  top:10%;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+
+ 
+
+ .picture1{
+ position:absolute;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ top: 20%;
+
+ }
+.picture2{
+  position:absolute;
+  top: 30%;
+  margin-left:-40%; 
+}
+.picture3{
+  position:absolute;
+  top: 30%;
+  margin-left:40%; 
+}
+
+.oldpaper{
+  position: absolute;
+  top: 30%;
+  margin-left: -10%;
+  
+}
+
+.oldpaper1{
+  position: absolute;
+  top: 70%;
+  margin-left: 8%;
+  
+}
+
+.bg-img{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+
+}
+.return{
+  font-size: 22px;
+  font-family:papyrus;	
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+ .text1{
+  position:absolute;
+  text-align: center;
+  width: 500px;
+  font-size: 22px;
+  margin-top: 400px;
+
+  font-family:papyrus;	
+
+ }
+ .book-of-answers{
+  margin-top: 800px;
+}
+.text1:visited{
+color: aliceblue;
+}
+.text1:link{
+  text-decoration: none;
+}
+
+
+ .text2{
+  position:absolute;
+  text-align: center;
+ width: 500px;
+  font-size: 50px;
+  font-family:papyrus;	
+  
+  
+  
+ }
+.text2:visited{
+   color: aliceblue;
+   
+ }
+.text2:link{
+  text-decoration: none;
+}
+.text2:active{
+  text-shadow: 10px;
+}
+
+ .one{
+   margin-left: -30%;
+   top:35%;
+ }
+
+ .two{
+   margin-left: 0% ;
+   top:35%
+ }
+
+ .three{
+  margin-left: 30%;
+  top:35%
+ }
+ 
+ .four{
+  margin-left: -30%;
+  top:50%
+}
+.five{
+  margin-left: 0% ;
+  top:50%
+
+}
+.six{
+  margin-left: 30%;
+  top:50%
+
+ }
+.seven{
+  margin-left: -30%;
+  top:65%
+
+}
+.eight{
+  margin-left: 0% ;
+  top:65%
+
+}
+.nine{
+  margin-left: 30%;
+  top:65%
+
+ }
+
+ .zero{
+  margin-left: 0% ;
+  top:80%
+
+}
+
+
+
+
+ .text-answer{
+  position:absolute;
+  top: auto;
+  bottom: auto;
+  font-family:papyrus;	
+  font-size: 30px;
+  color:aliceblue;
+  width:100vw;
+  height:100vh ;
+ }
+
+ #answer{
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+ }
